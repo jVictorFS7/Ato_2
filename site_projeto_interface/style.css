@@ -1,0 +1,78 @@
+body{
+
+}
+#cabecalho{
+    display: grid;
+    grid-template-columns: 20% 60%;
+    max-height: 100px;
+    border: 1px solid #dcdcdc;
+}
+#cabecalho h3{
+    margin-top: 25px;
+    text-align: center;
+}
+#subtitulo{
+    font-size: 11px;
+    margin-top: -5px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+h1{
+    margin-top: 80px;
+    text-align: center;
+}
+#conteudo{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    place-items: center;
+    margin: 80px 30px 0px 30px;
+    height: auto;
+}
+#card{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    width: 300px;
+    height: 350px;
+    margin-bottom: 60px;
+}
+#imagem{
+    background-image: url("./imagens/mundo_selvagem.jpg");
+    background-size: 300px auto;
+}
+#imagem a button{
+    position: absolute;
+    margin-top: 158px;
+    margin-left: -10px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    transform-origin: bottom;
+    transition: transform 0.3s ease-in-out;
+    border: none;
+    letter-spacing: 4px;
+}
+#imagem a button:hover{
+    color: yellow;
+    transform: scaleY(2.0);
+    font-size: 13px;
+    letter-spacing: 4px;
+}
+#texto{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+#noticias{
+    margin: 80px 30px 0 30px;
+    text-align: center;
+}
