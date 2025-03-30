@@ -1,0 +1,167 @@
+#cabecalho{
+    display: grid;
+    grid-template-columns: 20% 60%;
+    max-height: 100px;
+    border: 1px solid #dcdcdc;
+    background-color: rgba(0,0,0,0.1);
+}
+#cabecalho h3{
+    margin-top: 25px;
+    text-align: center;
+}
+#subtitulo{
+    font-size: 11px;
+    margin-top: -5px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+nav a:hover{
+    color: red;
+}
+h1{
+    margin-top: 80px;
+    text-align: center;
+}
+#materia{
+    width: 1300px;
+    margin: 80px 30px auto 30px;
+    border-bottom: 2px solid #dcdcdc;
+}
+#textoLateral{
+    display: grid;
+    grid-template-columns: 47% 50%;
+}
+#materia img{
+    margin-top: 16px;
+    width: 600px;
+    height: auto;
+}
+#materia p{
+    overflow: auto;
+    font-size: 18.5px;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#cards{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 100px;
+}
+#card{
+    width: 300px;
+    max-height: 300px;
+    border: 5px ridge black;
+    display: grid;
+    grid-template-rows: 35% 20% 40%;
+    background-image: url("../imagens/diversas/panda.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#card button{
+    width: 300px;
+    height: 300px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+#card button:hover::after{
+    content: "Clique para saber mais";
+    color: yellow;
+    font-size: 20px;    
+}
+#card button:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+h3{
+    margin-top: 45px;
+    text-align: center;
+}
+#textoCard{
+    overflow: hidden;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    margin-top: 60px;
+    border-top: 2px solid #dcdcdc;
+    background-color: rgba(0,0,0,0.1);
+}
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-right: 2px solid #dcdcdc;
+    border-left: 2px solid #dcdcdc; 
+}
+#sociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    border-right: 2px solid #dcdcdc;
+}
+#newsletter{
+    text-align: center;
+    border-right: 2px solid #dcdcdc;
+}
+footer #links ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+footer #sociais ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin-bottom: 10px;
+}
+#links ul li a:hover{
+    color: red;
+}
+#icone{
+    width: 20px;
+    border-radius: 20px;
+}
+#insta:hover::after{
+    content: "Instagram";
+    position: absolute;
+    margin: 3px 0px 0px 5px;
+}
+#x:hover::after{
+    content: "X";
+    position: absolute;
+    margin: 3px 0px 0px 5px;
+}
+#facebook:hover::after{
+    content: "Facebook";
+    position: absolute;
+    margin: 3px 0px 0px 5px;
+}
+#youtube:hover::after{
+    content: "Youtube";
+    position: absolute;
+    margin: 0px 0px 0px 5px;
+}
+#linkedIn:hover::after{
+    content: "LinkedIn";
+    position: absolute;
+    margin: 3px 0px 0px 5px;
+}

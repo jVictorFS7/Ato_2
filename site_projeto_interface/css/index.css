@@ -1,11 +1,9 @@
-body{
-
-}
 #cabecalho{
     display: grid;
     grid-template-columns: 20% 60%;
     max-height: 100px;
     border: 1px solid #dcdcdc;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 #cabecalho h3{
     margin-top: 25px;
@@ -49,7 +47,7 @@ h1{
     margin-bottom: 60px;
 }
 #imagem{
-    background-image: url("./imagens/mundo_selvagem.jpg");
+    background-image: url("../imagens/diversas/mundo_selvagem.jpg");
     background-size: 300px auto;
 }
 #imagem a button{
@@ -92,7 +90,7 @@ h1{
     border: 1px solid #dcdcdc;
 }
 #imgNoticias{
-    background-image: url("./imagens/panda.jpg");
+    background-image: url("../imagens/diversas/panda.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -127,14 +125,18 @@ footer{
     width: 100%;
     height: 200px;
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: 33% 33% 34%;
+    margin-top: 60px;
+    border-top: 2px solid #dcdcdc;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 #links{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-left: 0;
+    border-right: 2px solid #dcdcdc;
+    border-left: 2px solid #dcdcdc;
 }
 #sociais{
     display: flex;
@@ -142,11 +144,21 @@ footer{
     justify-content: center;
     text-align: center;
     text-decoration: none;
-    padding-left: 0;
+    border-right: 2px solid #dcdcdc;
 }
 #newsletter{
-    margin-top: 30px;
     text-align: center;
+    border-right: 2px solid #dcdcdc;
+}
+footer #links ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+footer #sociais ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 li{
     margin-bottom: 10px;
